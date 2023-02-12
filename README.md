@@ -10,11 +10,8 @@
 ## 2.Wireframe
     
    
-   
+   ![image](https://user-images.githubusercontent.com/122345473/218329078-27db2881-b243-463f-a71f-46921da2b65e.png)
 
-
-
-     image.png
 
 ## Conclusion
 
