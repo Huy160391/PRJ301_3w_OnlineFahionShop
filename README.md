@@ -6,13 +6,18 @@
     - Purpose: to provide information, share, and review the tourist attractions of other users
     - Who needs this website: adventure travel enthusiasts, people who want to plan a trip in the country or simply want to know more about those places
      Admin
-        - Delete
-        - Update
-        
+        - View, Delete, Update users account
+        - Add, Remove, Edit tourist attraction
+        - Remove comment
      Client
-        - sign up account
+        * Account
+        - Sign up account
         - Login
         - Edit
+        - Contribute 
+        * Product (Tourist attraction)
+        - View information
+        - Comment, rate
         
 
 ## 2.Wireframe
