@@ -6,13 +6,14 @@
    - Nguyễn Lê Hoàng Anh - SE160406
 ## 1.Requirements
 
-    - Website name: Vietnam Travel
+    - Website name: Vietnam Travel Blog
     - Purpose: to provide information, share, and review the tourist attractions of other users
     - Who needs this website: adventure travel enthusiasts, people who want to plan a trip in the country or simply want to know more about those places
      Admin
         - View, Delete, Update users account
         - Add, Remove, Edit tourist attraction
-        - Remove comment
+     User
+        - View, Login, Vote
      Client
         * Account
         - Sign up account
@@ -21,10 +22,8 @@
         - Contribute 
         * Product (Tourist attraction)
         - View information
-        - Comment, rate
-        - Filter the reviews with high engagement to the top
-        - Do not accept inappropriate words
-        
+        - Vote number
+        - Image       
 
 ## 2.Wireframe
 
