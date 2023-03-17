@@ -33,11 +33,14 @@
    1. Logo
    
    ![11zon_cropped (11)](https://user-images.githubusercontent.com/122345473/218347262-b90d5b38-bfe5-4c57-8697-4e71b8c0ddec.png)
- ![image](https://user-images.githubusercontent.com/122345473/225925117-73bebf1d-f55f-4dc9-b00a-a79be7845167.png)
-  ![image](https://user-images.githubusercontent.com/122345473/225925277-817c4a4f-69c2-40c1-9657-ffbec44f5320.png)
-  ![image](https://user-images.githubusercontent.com/122345473/225925540-526c921e-0edb-41f8-8bab-2c4cfad2aaf7.png)
-  ![image](https://user-images.githubusercontent.com/122345473/225925624-dd6daee6-2f42-4842-acce-a66010f9b708.png)
-  ![image](https://user-images.githubusercontent.com/122345473/225925706-6198c72a-4b36-4fd6-9c7e-02263f338764.png)
+   ![image](https://user-images.githubusercontent.com/122345473/225926041-7106a9c4-f19f-42dc-9d08-9dc219f288bc.png)
+   ![image](https://user-images.githubusercontent.com/122345473/225926141-9b1046e1-ea69-4b93-b946-94361958194a.png)
+   ![image](https://user-images.githubusercontent.com/122345473/225925540-526c921e-0edb-41f8-8bab-2c4cfad2aaf7.png)
+   ![image](https://user-images.githubusercontent.com/122345473/225925624-dd6daee6-2f42-4842-acce-a66010f9b708.png)
+   ![image](https://user-images.githubusercontent.com/122345473/225925706-6198c72a-4b36-4fd6-9c7e-02263f338764.png)
+   ![image](https://user-images.githubusercontent.com/122345473/225926214-47f774dc-1b2c-41d1-a3b0-dec1ed8166fb.png)
+   ![image](https://user-images.githubusercontent.com/122345473/225926256-4fc865a7-ff14-4c50-9477-84fdd8c99ba2.png)
+
 
    
 
