@@ -7,23 +7,21 @@
 ## 1.Requirements
 
     - Website name: Vietnam Travel Blog
-    - Purpose: to provide information, share, and review the tourist attractions of other users
-    - Who needs this website: adventure travel enthusiasts, people who want to plan a trip in the country or simply want to know more about those places
-     Admin
-        - View, Delete, Update users account
-        - Add, Remove, Edit tourist attraction
-     User
-        - View, Login, Vote
-     Client
-        * Account
-        - Sign up account
-        - Login
-        - Edit
-        - Contribute 
-        * Product (Tourist attraction)
-        - View information
-        - Vote number
-        - Image       
+    - Purpose: The website was created for the purpose of sharing information and images about famous landscapes and tourist areas in the country. This is a non-profit       website.
+    - Subjects use: Domestic and foreign users. Those who intend to learn about Vietnam's scenic spots. Especially those who are preparing, or are planning a trip in the country. We will help them get more detailed, specific information from the data we have and information shared from others in the community.
+     
+     MAIN FUNCTIONS
+      -Login
+      -Logout
+      -Create account
+      -Update account (edit, delete)
+      -Post
+      -Edit Post
+      -Comment
+
+    -Admin: Login, Logout, Update user account, Post, Edit post
+    -User: Login, Logout, Comment
+
 
 ## 2.Wireframe
 
