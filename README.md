@@ -31,13 +31,29 @@
    ![image](https://user-images.githubusercontent.com/122345473/218329078-27db2881-b243-463f-a71f-46921da2b65e.png)
 
    1. Logo
+   ![image](https://user-images.githubusercontent.com/122345473/227017893-1bcf6e1b-2fe9-4ce9-85e2-e15f51e98df5.png)
+   2. Home Page
+   ![image](https://user-images.githubusercontent.com/122345473/227018123-71ece836-f614-40d5-8c21-f688a36a6275.png)
+   ![image](https://user-images.githubusercontent.com/122345473/227018327-7c508aee-b25e-4da0-bca2-2bfc8f3ccf8e.png)
+
+   3. View Detail
+   ![image](https://user-images.githubusercontent.com/122345473/227019040-3e4b95dc-882f-442a-94d0-a19f218b117e.png)
+   ![image](https://user-images.githubusercontent.com/122345473/227019105-1b8a180e-39ba-4c9e-95ca-818b09ae9977.png)
+
+   4. Manager Places
+   ![image](https://user-images.githubusercontent.com/122345473/227018724-bf58389c-9fe0-474d-bee2-339004befdf0.png)
+   ![image](https://user-images.githubusercontent.com/122345473/227018785-71c88da5-e58a-4650-b40c-db413d85f70b.png)
+   ![image](https://user-images.githubusercontent.com/122345473/227018894-68f25414-4f6d-4f20-8c7d-32639e087ecc.png)
+
+   5. Manager Users
+   ![image](https://user-images.githubusercontent.com/122345473/227018537-0771dc44-0600-4bb9-a6a2-26a0e12a8c23.png)
+   ![image](https://user-images.githubusercontent.com/122345473/227018628-97c89ed7-941e-4f42-ae99-84cd023de534.png)
+
+   
+   
    
 
-   ![image](https://user-images.githubusercontent.com/122345473/225925117-73bebf1d-f55f-4dc9-b00a-a79be7845167.png)
-  ![image](https://user-images.githubusercontent.com/122345473/225925277-817c4a4f-69c2-40c1-9657-ffbec44f5320.png)
-  ![image](https://user-images.githubusercontent.com/122345473/225925540-526c921e-0edb-41f8-8bab-2c4cfad2aaf7.png)
-  ![image](https://user-images.githubusercontent.com/122345473/225925624-dd6daee6-2f42-4842-acce-a66010f9b708.png)
-  ![image](https://user-images.githubusercontent.com/122345473/225925706-6198c72a-4b36-4fd6-9c7e-02263f338764.png)
+
 
    
 
