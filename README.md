@@ -63,4 +63,6 @@
 
 
 ## Conclusion
+   This project has been a valuable experience for all of us. Get tested like a real programmer, make your first website. Despite many difficulties and shortcomings in the process of working, we still completed this project to the extent possible. We thought of many different functions for the project, however we were only able to do some of them. But we believe these mistakes will be the foundation for the future, thank you.
+
 
