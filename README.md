@@ -63,6 +63,6 @@
 
 
 ## Conclusion
-   This project has been a valuable experience for all of us. Get tested like a real programmer, make your first website. Despite many difficulties and shortcomings in the process of working, we still completed this project to the extent possible. We thought of many different functions for the project, however we were only able to do some of them. But we believe these mistakes will be the foundation for the future, thank you.
+   Our first project had many problems. And the problem that takes everyone on the team the most time is the design of the database. Each error or omission in the database makes the program much more complicated to handle, making other features such as users can add posts and users can delete and edit their comments. presently. The second one that is equally time consuming is the html syntax issue, although this is a small exercise, our bootstrap is not sourced from one source causing a lot of errors. This project has been a valuable experience for all of us. Get tested like a real programmer, make our first website. Despite many difficulties and shortcomings in the process of working, we still completed this project to the extent possible. We thought of many different functions for the project, however we were only able to do some of them. But we believe these mistakes will be the foundation for the future, thank you.
 
 
