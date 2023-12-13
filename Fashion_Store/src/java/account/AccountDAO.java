@@ -46,6 +46,7 @@ public class AccountDAO {
                 user.setStatus(rs.getLong("status"));
 
                 return user;
+                
             }
         } catch (Exception e) {
             System.out.println("Login is wrong" + e.getMessage());
@@ -55,7 +56,7 @@ public class AccountDAO {
     }
 
     public AccountDTO register(String username, String password, String email, String address, String phoneNumber, String fullName) {
-        String sql = "INSERT INTO Account (username, password, email, address, phoneNumber, fullName, role) VALUES (?, ?, ?, ?, ?, ?, 0)";
+        String sql = "INSERT INTO Account (username, password, email, address, phoneNumber, fullName, role, status) VALUES (?, ?, ?, ?, ?, ?, 0, 1)";
 
         try {
             Connection con = DBUtils.getConnection();

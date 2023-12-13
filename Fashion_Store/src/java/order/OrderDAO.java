@@ -29,11 +29,12 @@ public class OrderDAO {
         Date date = Date.valueOf(currentDate);
         try {
             Connection con = DBUtils.getConnection();
-            String sql = "INSERT INTO [Order] (accountID, date, totalMoney, status) VALUES (?, ?, ?, N'Processing')";
+            String sql = "INSERT INTO [Order] (orderID, accountID, date, totalMoney, status) VALUES (?, ?, ?, ?, N'Processing')";
             PreparedStatement ps = con.prepareStatement(sql);
-            ps.setInt(1, account.getId());
-            ps.setDate(2, date);
-            ps.setDouble(3, cart.getTotalMoney());
+            ps.setInt(1, 1);
+            ps.setInt(2, account.getId());
+            ps.setDate(3, date);
+            ps.setDouble(4, cart.getTotalMoney());
             int rowsAffected = ps.executeUpdate(); // Use executeUpdate() here
 
             if (rowsAffected > 0) {

@@ -34,6 +34,7 @@
        
 
                 <button class="btn btn-success btn-block" type="submit"><i class="fas fa-sign-in-alt"></i>Login</button>
+                <input name="action" value="login" type="hidden">
                 <hr>
                 <a class="btn btn-primary btn-block text-white" href="register.jsp"><i class="fas fa-user-plus"></i>Register</a>
             </form>

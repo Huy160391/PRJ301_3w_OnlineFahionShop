@@ -49,7 +49,7 @@ public class AuthController extends HttpServlet {
             } else if (action.equals("login")) {
                 String username = request.getParameter("username");
                 String password = request.getParameter("password");
-
+               
                 if (username == null || password == null) {
                     out.println("Please input username and password");
                 } else {
