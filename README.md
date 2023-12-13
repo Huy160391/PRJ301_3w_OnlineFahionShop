@@ -1,15 +1,15 @@
-# FashionStore - Online Fashion Marketplace
+# FashionStore - Online Fashion Shopping
 
-# Team - Group 5
+# Team - Group 1
 
-- Nguyễn	Ngọc Bảo Khương - (SE150857)
-- Nguyễn Trọng Tín - (SE151117)
-- Phan Văn Tiếp Em (SE150335)
-- Tôn Thiện Hoàng Hiệp - (SE161662)
+- Nguyễn Quang Huy - (SE160391)
+- Nguyễn Việt An - (SE150617)
+- Nguyễn Tường Minh - (SE140261)
+- Chu Tuấn Kiệt - (SE150863)
+-   Đỗ Văn Hiệp - (SE172276)
 
 ## Purpose of the System:
-FashionStore is an advanced online marketplace that facilitates the buying and selling of fashionable clothing items for both men and women. The system aims to provide a user-friendly platform for customers to discover and purchase clothing items, while also offering sellers the opportunity to showcase and sell their products to a wider audience.
-
+FashionStore is an advanced online marketplace that makes it easier for men and women to buy and sell stylish apparel goods. In addition to giving vendors the chance to market and sell their goods to a larger audience, the system seeks to offer consumers an easy-to-use platform for finding and buying apparel items.
 Users of the System:
 
 ### 1. Customers: Individuals interested in purchasing fashionable clothing items online. 
@@ -17,26 +17,25 @@ Users of the System:
 ### 2. Admin: Fashion designers or clothing brands looking to showcase and sell their products.
 
 ## System Features:
-The features are categorized based on the user roles.
+The user roles are used to categorize the functionalities.
 
 ### Customer-Related Features:
 
 #### *1. User Registration and Authentication:
 
-New customers can create accounts using a username and password.
-Existing customers can securely log in to their accounts.
+With a username and password or google account, new users can create accounts.
+Current clients can safely access their accounts by logging in.
 
 #### *2. Browsing and Shopping:
 
-Customers can explore a diverse catalog of clothing items for men and women.
-Advanced search functionality for finding products by keywords, categories, brands, and more.
-Detailed product pages with images, descriptions, prices, and available sizes.
-Ability to add products to the shopping cart.
+Consumers can peruse an extensive selection of men's and women's apparel in the catalog.
+Sophisticated search features to locate products by brands, categories, keywords, and more.
+Comprehensive product pages include pictures, details, costs, and sizes that are available.
+the capability of adding goods to the shopping basket.
 
 #### *3. Shopping Cart:
 
 Customers can view their cart contents, adjust quantities, and remove items.
-
 
 #### *4. Order History:
 
@@ -61,7 +60,7 @@ Admin has access to a personalized dashboard to manage order history.
 
 ## SiteMap
 
-![Fashion site map](./assets/sitemap/sitemap.drawio.png)
+![Login Page](./Sitemap/sitemap.png)
 
 ## WireFrame (Gui)
 
@@ -69,106 +68,54 @@ Admin has access to a personalized dashboard to manage order history.
 
 ### Login Page
 
-![Login Page](./assets/wireframe/LoginPage.png)
-
+![Login Page](./GUI/Login.png)
 ### Register Page
 
-![Register Page](./assets/wireframe/RegisterPage.png)
+![Register Page](./GUI/Register.png)
 
 ### Home Page (Not Login)
 
-![Home Page](./assets/wireframe/HomePage(NotLogin).png)
+![Home Page](./GUI/HomePageNotLogin.png)
 
 ### Home Page
 
-![Home Page](./assets/wireframe/HomePage.png)
+![Home Page](./GUI/HomePageLogin.png)
 
 ### Detail Product Page
 
-![Detail Product Page](./assets/wireframe/DetailProductPage.png)
+![Detail Product Page](./GUI/ProductDetail.png)
 
 ### Cart Page
 
-![Cart Page](./assets/wireframe/CartPage.png)
+![Cart Page](./GUI/CartUser.png)
 
 ### Profile Page
 
-![Profile Page](./assets/wireframe/Profile.png)
+![Profile Page](./GUI/Profile.png)
 
 ### OrderHistory Page
 
-![Order History Page](./assets/wireframe/OrderHistory.png)
+![Order History Page](./GUI/OrderHistoryUser.png)
 
 ### Role Admin: 
 
 ### Admin DashBoard Page
 
-![Admin DashBoard Page](./assets/wireframe/AdminDashBoard.png)
+![Admin DashBoard Page](./GUI/AdminDashboard.png)
 
 ### Add Product Page
 
-![Add Product Page](./assets/wireframe/AddProduct.png)
+![Add Product Page](./GUI/AddNewProduct.png)
 
 ### Edit Page
 
-![Edit Product Page](./assets/wireframe/UpdateProduct.png)
+![Edit Product Page](./GUI/UpdateProduct.png)
 
 ### OrderHistory Admin Page
 
-![OrderHistory Admin Page](./assets/wireframe/OrderHistory(Admin).png)
+![OrderHistory Admin Page](./GUI/OrderHistoryAdmin.png)
 
-## ERD
-
-![ERD](./assets/erd/database.jpg)
-
-#### *4. Structure of project
-
-![STRUCTURE_1](./assets/structure/1.png)
-
-![STRUCTURE_2](./assets/structure/2.png)
-
-## 5. . Conclusion and Discussion
-
-### + Pros and cons of your application.
-
-#### Pros :
-- Easy-to-use display
-  
-- Manage shopping cart
-  
-- Shopping cart history
-  
-- Manage products as an administrator
-#### Cons:
-
-- Lack of managed account, order functional
-
-- No payment, voucher functional
-  
-- Can't do advanced functions like Login with Google or Facebook
-  
-- Haven't verified by OTP message when creating an account
-  
-- Haven't done the forgot password function for users
-
-####  Things our team learned during our app development.
-- Learn more about MVC2
-  
-- Learn to use JSTL tags to write programs faster
-  
-- Learn how to decentralize the app
-  
-- Learn how to work as a team through GitHub
-#### Our team will improve things in our app in the future:
-
-- Add security features like OTP, and verification via Gmail
-  
-- Add payment features, vouchers
-  
-- Making apps for mobile apps
-
-
-
-
+## Figma
+**Click here: [Figma](https://www.figma.com/file/na3WEHGC1Gphvz0kmEDOno/Fashion-Store?type=design&node-id=0%3A1&mode=design&t=mtUmzcY5a7j0dJ66-1)**
 
 
