@@ -41,7 +41,7 @@ public class AuthController extends HttpServlet {
         try (PrintWriter out = response.getWriter()) {
             /* TODO output your page here. You may use following sample code. */
             String action = request.getParameter("action");
-
+            
             if (action.equals("logout")) {
                 AccountDAO accountDAO = new AccountDAO();
                 accountDAO.logout(request);
@@ -91,7 +91,8 @@ public class AuthController extends HttpServlet {
                             request.setAttribute("tag", index);
                             request.getRequestDispatcher("Home.jsp").forward(request, response);
                         } else {
-                            request.setAttribute("error", "Wrong username or password");
+                            HttpSession session = request.getSession();
+                            session.setAttribute("error", "Wrong username or password");
                             request.getRequestDispatcher("login.jsp").forward(request, response);
                         }
                     }

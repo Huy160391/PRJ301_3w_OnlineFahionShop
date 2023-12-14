@@ -23,6 +23,14 @@
         <title>Đăng Nhập</title>
     </head>
     <body>
+        <%
+            String error = (String) session.getAttribute("error");
+            if (error != null && !error.isEmpty()) {
+        %>
+        <h1>${error}</h1>
+        <%
+            }
+        %>  
         <div id="logreg-forms">
             <form class="form-signin" action="auth?action=login" method="post">
                 <h1 class="h3 mb-3 font-weight-normal" style="text-align: center">Fashion Store - Login</h1>
@@ -31,19 +39,19 @@
                 <input name="username" value="${username}" type="text" id="inputEmail" class="form-control mb-3" placeholder="Username" required="" autofocus="">
                 <input name="password" value="${password}" type="password" id="inputPassword" class="form-control mb-3" placeholder="Password" required="">
 
-       
+
 
                 <button class="btn btn-success btn-block" type="submit"><i class="fas fa-sign-in-alt"></i>Login</button>
-                <input name="action" value="login" type="hidden">
+
                 <hr>
                 <a class="btn btn-primary btn-block text-white" href="register.jsp"><i class="fas fa-user-plus"></i>Register</a>
+
             </form>
 
-            
             <br>
         </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-      
+
     </body>
 </html>

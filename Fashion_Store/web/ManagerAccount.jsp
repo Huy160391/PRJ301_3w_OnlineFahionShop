@@ -30,7 +30,7 @@
     <body>
         <div class="container">
             <div class="table-wrapper">
-                <div class="table-title">
+                <div class="table-title" style="background: #f2b629">
                     <div class="row">
                         <div class="col-sm-6">
                             <h2>Manager <b>Account</b></h2>

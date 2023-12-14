@@ -39,7 +39,7 @@
 
                                         <div class="row">
                                             <h1>Order Detail</h1>
-                                            <div class="col-lg-12 p-5 bg-white rounded shadow-sm mb-5">
+                                            <div class="col-lg-12 p-5 bg-white rounded shadow-sm mb-5" >
 
                                                 <!-- Shopping cart table -->
                                                 <div class="table-responsive">
@@ -104,9 +104,9 @@
                 <div class="shopping-cart">
                     <div class="px-4 px-lg-0">
                         <div class="pb-5">
-                            <div class="container">
+                            <div class="container" >
 
-                                <div class="row">
+                                <div class="row" >
                                     <div class="col-lg-12" style="display: flex; justify-content: space-between;">
                                         <h1>Order Detail</h1>
                                         <c:if test="${statusOrder != 'Completed'}">

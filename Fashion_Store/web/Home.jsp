@@ -17,6 +17,16 @@
         <!------ Include the above in your HEAD tag ---------->
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <style>
+            .card {
+                transition: all 0.5s ease;
+            }
+
+            .card:hover {
+                transform: scale(1.05); /* Phóng to item khi hover */
+               
+            }
+        </style>
     </head>
     <body>
         <jsp:include page="Menu.jsp"></jsp:include>
@@ -24,7 +34,7 @@
                 <div class="row">
                     <div class="col">
                         <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb" style="background-color: #343a40">
+                            <ol class="breadcrumb" style="background-color: #f5b042">
                                 <li class="breadcrumb-item" ><a href="home" style="color: white; font-weight: bold;" >Home</a></li>
                                 <li class="breadcrumb-item"><a href="#" style="color: white; font-weight: 500;" >Category</a></li>
                                 <li class="breadcrumb-item active" aria-current="#" style="color: white;">Product</li>
@@ -50,7 +60,7 @@
                                         </p>
                                         <div class="row">
                                             <div class="col">
-                                                <p class="btn btn-danger btn-block"> ${o.getPrice()} vnd</p>
+                                                <p class="btn btn-danger btn-block" style="background: #f0a64d"> ${o.getPrice()} vnd</p>
                                             </div>
                                             <div class="col">
                                                 <a href="addToCart?action=increase&id=${o.getId()}&number=+1" class="btn btn-success btn-block">Add to cart</a>

@@ -21,9 +21,90 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link href="css/manager.css" rel="stylesheet" type="text/css"/>
         <style>
-            img{
-                width: 200px;
-                height: 120px;
+            body {
+                background-color: #fff; /* trắng */
+                color: #333; /* đen */
+            }
+
+            .table-wrapper {
+                border: 1px solid #ddd; /* xám nhạt */
+                border-radius: 5px;
+                padding: 20px;
+                box-shadow: 0 0 10px 2px #ccc; /* bóng đổ */
+            }
+
+            .table-title {
+                background-color: #f9f6f7; /* cam nhạt */
+                padding: 15px;
+                border-radius: 5px 5px 0 0;
+                box-shadow: 0 0 5px 1px #ccc; /* bóng đổ */
+            }
+
+            h2 {
+                font-family: Roboto Condensed Bold; /* font chữ đậm */
+                color: #333;
+                margin: 0;
+            }
+
+            .form-group {
+                margin-bottom: 15px;
+            }
+
+            .form-control {
+                border: 1px solid #ddd;
+                border-radius: 3px;
+                padding: 6px 12px;
+                font-size: 16px;
+            }
+
+            .form-control:focus {
+                border: 1px solid #f00; /* cam đậm */
+            }
+
+            .modal-content {
+                box-shadow: 0 0 10px 2px #ccc; /* bóng đổ */
+            }
+
+            .modal-header {
+                border-bottom: 1px solid #ddd;
+                padding: 10px 20px;
+                background-color: #f9f6f7; /* cam nhạt */
+                box-shadow: 0 0 5px 1px #ccc; /* bóng đổ */
+            }
+
+            .modal-body {
+                background-color: #fff; /* trắng */
+                padding: 20px;
+            }
+
+            .btn-default {
+                background-color: #fff;
+                border: 1px solid #ddd;
+                color: #333;
+                font-size: 16px;
+            }
+
+            .btn-default:hover {
+                background-color: #f9f6f7; /* cam nhạt */
+                border: 1px solid #f00; /* cam đậm */
+            }
+
+            .btn-info {
+                background-color: #f00; /* cam đậm */
+                border: 1px solid #f00;
+                color: #fff;
+                font-size: 16px;
+            }
+
+            .btn-info:hover {
+                background-color: #d95b43; /* cam tối */
+            }
+
+            img {
+                width: 100%;
+                border: 1px solid #ddd;
+                border-radius: 3px;
+                margin-bottom: 10px;
             }
         </style>
     </head>
@@ -46,7 +127,7 @@
                         <form action="product?action=update" method="post">
                             <div class="modal-header">						
                                 <h4 class="modal-title">Edit Product</h4>
-                               
+
                             </div>
                             <div class="modal-body">					
                                 <div class="form-group">

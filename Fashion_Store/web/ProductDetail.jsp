@@ -57,7 +57,7 @@
 
                     <div class="col-sm-9">
                         <div class="container">
-                            <div class="card">
+                            <div class="card" style="font-family: 'Roboto Mono', monospace; font-size: 16px; font-weight: bold;background: #f2b629;">
                                 <div class="row">
                                     <aside class="col-sm-5 border-right">
                                         <article class="gallery-wrap"> 
