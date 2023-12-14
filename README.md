@@ -23,7 +23,7 @@ The user roles are used to categorize the functionalities.
 
 #### *1. User Registration and Authentication:
 
-With a username and password or google account, new users can create accounts.
+With a username and password , new users can create accounts.
 Current clients can safely access their accounts by logging in.
 
 #### *2. Browsing and Shopping:
