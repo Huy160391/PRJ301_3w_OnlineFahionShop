@@ -20,11 +20,10 @@
     </head>
     <body>
         <jsp:include page="Menu.jsp"></jsp:include>
-            <div class="container" style="display: flex; flex-direction: column; height: 100vh; justify-content: center; align-items: center;">
-                <h1 class="text-danger">Account of you is banned! You can use it to login!</h1>
-                <a href="login.jsp" class="btn btn-primary">
-                    <h1>Login</h1>
-                </a>
+            <div class="container" style="display: flex; flex-direction: column; height: 60vh; justify-content: center; align-items: center;">
+                <image src="image/banned.png" width="300" height="300" />
+                <h1 class="text-danger">Your account is banned! You can't use it to login!</h1>
+                <h2>Create new account <a href="register.jsp">here.</a></h2>
             </div>
      
 

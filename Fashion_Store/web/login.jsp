@@ -23,20 +23,17 @@
         <title>Đăng Nhập</title>
     </head>
     <body>
+        <jsp:include page="Menu.jsp"></jsp:include>
         <div id="logreg-forms">
             <form class="form-signin" action="auth?action=login" method="post">
-                <h1 class="h3 mb-3 font-weight-normal" style="text-align: center">Fashion Store - Login</h1>
                 <p class="text-danger">${error}</p>
                 <p class="text-success">${success}</p>
                 <input name="username" value="${username}" type="text" id="inputEmail" class="form-control mb-3" placeholder="Username" required="" autofocus="">
                 <input name="password" value="${password}" type="password" id="inputPassword" class="form-control mb-3" placeholder="Password" required="">
-
-       
-
-                <button class="btn btn-success btn-block" type="submit"><i class="fas fa-sign-in-alt"></i>Login</button>
-                <input name="action" value="login" type="hidden">
-                <hr>
-                <a class="btn btn-primary btn-block text-white" href="register.jsp"><i class="fas fa-user-plus"></i>Register</a>
+                <a href="register.jsp">I don't have an account</a>
+                <div style="display: flex; align-items: center; justify-content: center"><button type="submit" class="btn" style="background: linear-gradient(274deg, #EDB554 0%, #EDB554 100%); border-radius: 99px; width: 70%"><i class="fas fa-sign-in-alt"></i> Login </button>
+                    <input name="action" value="login" type="hidden"></div>
+                
             </form>
 
             

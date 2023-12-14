@@ -28,27 +28,11 @@
         </style>
     </head>
     <body>
-        <div class="container">
-            <div class="table-wrapper">
-                <div class="table-title">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <h2>Edit <b>Info</b></h2>
-                        </div>
-                        <div class="col-sm-6">
-                        </div>
-                    </div>
-                </div>
-            </div>
+       <%-- <jsp:include page="Menu.jsp"></jsp:include>--%>
+        <div class="container" style="display: flex; flex-direction: column; justify-content: center;border: 1px solid #ccc; box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 2px;margin-top: 50px;background-color: #F5EFE9; padding: 30px">
+            <h2>Edit Profile</h2>
             <div id="editEmployeeModal">
-                <div class="modal-dialog">
-                    <div class="modal-content">
                         <form action="editinfo" method="post">
-                            <div class="modal-header">						
-                                <h4 class="modal-title">Edit Profile</h4>
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                            </div>
-                            <div class="modal-body">
                                 <div class="form-group">
                                     <label>ID</label>
                                     <input value="${showacc.getA_id()}" name="A_id" type="text" class="form-control" readonly required>
@@ -58,25 +42,29 @@
                                     <input value="${showacc.getA_name()}" name="A_name" type="text" class="form-control" required>
                                 </div>
                                 <div class="form-group">
-                                    <label>SDT</label>
+                                    <label>Password</label>
+                                    <input value="${showacc.getA_pass()}" name="A_pass" type="password" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Confirm Password</label>
+                                    <input value="${showacc.getA_repass()}" name="A_repass" type="password" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Phone number</label>
                                     <input value="${showacc.getA_phone()}" name="A_phone" type="text" class="form-control" required>
                                 </div>               
                                 <div class="form-group">
                                     <label>Email</label>
-                                    <input value="${showacc.getA_email()}" name="A_email" type="text" class="form-control" required>
+                                    <input value="${showacc.getA_email()}" name="A_email" type="email" class="form-control" required>
                                 </div>
                                 <div class="form-group">
-                                    <label>Địa chỉ</label>
+                                    <label>Address</label>
                                     <input value="${showacc.getA_address()}" name="A_address" type="text" class="form-control" required>
-                                </div>			
-                            </div>
-                            <div class="modal-footer">
-                                <input onclick="window.location.href = 'home'" type="button" class="btn btn-default" data-dismiss="modal" value="Cancel">
-                                <input type="submit" class="btn btn-info" value="Save">
-                            </div>
+                                </div>	
+                                <input type="submit" class="btn btn-info" value="Save" style="background: linear-gradient(274deg, #EDB554 0%, #EDB554 100%); border-radius: 99px; width: 30%">
+                                <input onclick="window.location.href = 'home'" type="button" class="btn btn-default" value="Cancel" style="border-radius: 99px; width: 30%">
+                                
                         </form>
-                    </div>
-                </div>
             </div>
         </div>
         <script src="js/manager.js" type="text/javascript"></script>

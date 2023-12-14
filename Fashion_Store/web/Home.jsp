@@ -36,34 +36,29 @@
                 </div>
             </div>
             <div class="container">
-                <div class="row">
                 <jsp:include page="ContentLeft.jsp"></jsp:include>
-                    <div class="col-sm-9">
-                        <div class="row" >
-                        <c:forEach items="${listProduct}" var="o">
-                            <div class="col-12 col-md-6 col-lg-4" style="padding:  10px 10px 10px 10px">
-                                <div class="card" >                                  
-                                    <img class="card-img-top" src="${o.getImg()}" alt="Card image cap" style="height: 300px; object-fit: contain;">
-                                    <div class="card-body">
-                                        <h4 class="card-title show_txt" style="text-align: center; font-family: Impact Charcoal; font-style: italic;"><a style="color: #000" href="productDetail?productId=${o.getId()}" title="View Product">${o.getProductName()}</a></h4>
-                                        <p class="card-text show_txt" style="text-align: center">Size: ${o.getSize()}
-                                        </p>
-                                        <div class="row">
-                                            <div class="col">
-                                                <p class="btn btn-danger btn-block"> ${o.getPrice()} vnd</p>
-                                            </div>
-                                            <div class="col">
-                                                <a href="addToCart?action=increase&id=${o.getId()}&number=+1" class="btn btn-success btn-block">Add to cart</a>
-                                            </div>
+                    <div class="row" >
+                    <c:forEach items="${listProduct}" var="o">
+                        <div class="col-12 col-md-6 col-lg-4" style="padding:  10px 10px 10px 10px">
+                            <div class="card" style="padding: 20px; background-color: #EDB554">                                  
+                                <img class="card-img-top" src="${o.getImg()}" alt="Card image cap" style="height: 300px; object-fit: contain;">
+                                <div class="card-body">
+                                    <h4 class="card-title show_txt" style="text-align: left; font-family: Impact Charcoal; font-style: italic;">${o.getProductName()}</h4>
+                                    <p class="card-text show_txt" style="text-align: left">Size: ${o.getSize()}</p>
+                                    <p class="card-text show_txt" style="text-align: left">Price: ${o.getPrice()} vnd</p>
+                                    <div class="row">
+                                        <div class="col">
+                                            <a class="btn" style="background-color: #9C9B9A; color: white;font-weight: bold;" href="productDetail?productId=${o.getId()}" title="View Product">Detail</a>
+                                        </div>
+                                        <div class="col">
+                                            <a href="addToCart?action=increase&id=${o.getId()}&number=+1" class="btn btn-success btn-block">Add to cart</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </c:forEach>
-                    </div>
+                        </div>
+                    </c:forEach>
                 </div>
-
-            </div>
         </div>
         <div style=" display: flex; justify-content: center; align-items: center;">                
             <c:forEach begin="1" end="${endP}" var="i">

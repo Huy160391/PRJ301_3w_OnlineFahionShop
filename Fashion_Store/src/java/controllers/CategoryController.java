@@ -57,6 +57,7 @@ public class CategoryController extends HttpServlet {
             List<ProductDTO> listProduct = productDAO.pagingProductByCategoryId(index, categoryId);
 
              request.setAttribute("endP", endPage);
+             request.setAttribute("choose", categoryId);
             request.setAttribute("listCategory", listCategory);
             request.setAttribute("listProduct", listProduct);
             request.setAttribute("tag", index);

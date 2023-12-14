@@ -35,75 +35,45 @@
 
                         <div class="pb-5">
                             <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-12 p-5 bg-white rounded shadow-sm mb-5">
+                                <div class="row" style="border: 1px solid #ccc; box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 2px; padding-bottom: 50px">
+                                    <div class="col-lg-12 p-5 bg-white rounded shadow-sm">
 
                                         <!-- Shopping cart table -->
-                                        <div class="table-responsive">
-                                            <table class="table">
-                                                <thead>
-                                                    <tr>
-                                                        <th scope="col" class="border-0 bg-light">
-                                                            <div class="p-2 px-3 text-uppercase">Product</div>
-                                                        </th>
-                                                        <th scope="col" class="border-0 bg-light">
-                                                            <div class="py-2 text-uppercase">Price</div>
-                                                        </th>
-                                                        <th scope="col" class="border-0 bg-light">
-                                                            <div class="py-2 text-uppercase">Quantity</div>
-                                                        </th>
-                                                        <th scope="col" class="border-0 bg-light">
-                                                            <div class="py-2 text-uppercase">Action</div>
-                                                        </th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <c:set var="o" value="${sessionScope.cart}" />
-                                                    <c:forEach items="${o.items}" var="i">
-                                                        <tr>
-                                                            <th scope="row">
-                                                                <div class="p-2">
-                                                                    <img src="${i.product.img}" alt="" width="70" class="img-fluid rounded shadow-sm">
-                                                                    <div class="ml-3 d-inline-block align-middle">
-                                                                        <h5 class="mb-0"> <a href="productDetail?productId=${i.product.id}" class="text-dark d-inline-block">${i.product.productName}</a></h5><span class="text-muted font-weight-normal font-italic"></span>
-                                                                    </div>
-                                                                </div>
-                                                            </th>
-                                                            <td class="align-middle"><strong>${i.price * i.quantity}</strong></td>
-                                                            <td class="align-middle">
-                                                                <a href="addToCart?action=descrease&id=${i.product.id}&number=1"><button class="btnSub">-</button></a> 
-                                                                <strong>${i.quantity}</strong>
-                                                                <a href="addToCart?action=increase&id=${i.product.id}&number=+1"><button class="btnAdd">+</button></a>
-                                                            </td>
-                                                            <td class="align-middle"><a href="#" class="text-dark">
-                                                                    <a href="addToCart?action=delete&id=${i.product.id}&number=0" class="btn btn-danger">Delete</a>
-                                                                </a>
-                                                            </td>
-                                                        </tr> 
-                                                    </c:forEach>
-                                                </tbody>
-                                            </table>
+                                        
+                                            <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">Cart</div>
+                                            <c:set var="o" value="${sessionScope.cart}" />
+                                            <c:forEach items="${o.items}" var="i">
+                                                <div class="row" style="margin: 20px; border: 1px solid #ccc; box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 2px;margin-top: 50px;background-color: #F5EFE9; padding: 30px">
+                                                    <img src="${i.product.img}" alt="" style="width: 100px; height: 120px" class="col-md-3">
+
+                                                    <div style="display: flex; flex-direction: column;justify-content: center" class="col-md-6">
+                                                        <div class="ml-3 d-inline-block align-middle">
+                                                            <h5 class="mb-0"><a href="productDetail?productId=${i.product.id}" class="text-dark d-inline-block">${i.product.productName}</a></h5><span class="text-muted font-weight-normal font-italic"></span>
+                                                        </div>
+                                                        <div class="align-middle"><strong>Price: ${i.price}</strong></div>
+                                                        <div class="align-middle">
+                                                            <strong>Quantity: </strong>
+                                                            <a href="addToCart?action=descrease&id=${i.product.id}&number=1"><button class="btnSub">-</button></a> 
+                                                            <strong>${i.quantity}</strong>
+                                                            <a href="addToCart?action=increase&id=${i.product.id}&number=+1"><button class="btnAdd">+</button></a>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-3" style="display: flex; justify-content: center; align-items: center">
+                                                        <a href="addToCart?action=delete&id=${i.product.id}&number=0" class="btn" style="height: 30%;background-color: red;color: white"><img src="image/remove.png" style="width:30px; height:30px"/></a>
+                                                    </div>
+                                                </div>
+
+                                            </c:forEach>
                                         </div>
                                         <!-- End -->
-                                    </div>
-                                </div>
-
-                                <div class="row py-5 p-4 bg-white rounded shadow-sm">
-                                  
-                                    <div class="col-lg-6">
-                                        <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">Bill</div>
-                                        <div class="p-4">
-                                            <ul class="list-unstyled mb-4">
-                                                <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Total amount</strong><strong>${sessionScope.totalPrice} VND</strong></li>
-                                                <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Fee delivery</strong><strong>Free ship</strong></li>
-                                                <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Total</strong>
-                                                    <h5 class="font-weight-bold">${sessionScope.totalPrice} VND</h5>
-                                                </li>
-                                            </ul><a href="./prepareCheckout" class="btn btn-dark rounded-pill py-2 btn-block">Checkout</a>
+                                        <div style="display: flex; align-items: center;justify-content: center" class="col-lg-12 bg-white">
+                                            <h4 style="color: red">Total:  ${sessionScope.totalPrice} VND</h4>
                                         </div>
-                                    </div>
+                                        <div style="display: flex; align-items: center;justify-content: center" class="col-lg-12 bg-white">
+                                            <a href="./prepareCheckout" class="btn" style="background: linear-gradient(274deg, #EDB554 0%, #EDB554 100%); border-radius: 99px; width: 20%;color: white"><b>Order</b></a>
+                                        </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
