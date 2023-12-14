@@ -1,8 +1,3 @@
-<%-- 
-    Document   : Cart1
-    Created on : Aug 22, 2023, 10:15:32 AM
-    Author     : tinit
---%>
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
